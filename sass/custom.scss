@@ -1,0 +1,34 @@
+// Required
+@import "./scss/functions";
+
+// Default variable overrides
+$body-bg: #ffffff;
+$body-color: #738d92;
+
+$primary: #5b8599;
+$success: #90b9b4;
+$warning: #d8d791;
+$info: #92c4db;
+$danger: #c97474;
+
+
+
+// Required
+@import "./scss/variables";
+@import "./scss/variables-dark";
+@import "./scss/maps";
+@import "./scss/mixins";
+@import "./scss/root";
+@import "./scss/buttons";
+@import "./scss/helpers";
+@import "./scss/nav";
+@import "./scss/navbar";
+@import "./scss/placeholders";
+@import "./scss/tables";
+@import "./scss/card";
+@import "./scss/pagination";
+
+// Optional Bootstrap components here
+@import "./scss/reboot";
+@import "./scss/type";
+// etc
